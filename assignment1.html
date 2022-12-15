@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>This is my room</h1>
+    <script>
+        //2.
+
+        var num = 20;
+        var x = ++num;
+        console.log(x);//21
+
+        var numOne = 10;
+        var y = numOne++;
+        console.log(y);//10
+        console.log(numOne);//11
+
+        var val = 23;
+        var t = ++val;//24
+        val++;
+        console.log(val)//25
+
+        var numval = 30;
+        var u = --numval;//29
+        numval++;//30 increment by 1
+        console.log(u);//29
+        console.log(numval);//30 display
+
+        var a = 40;
+        var b = a++;//40 is here after increase 41
+        b++;//increase by 1 value 41
+        console.log(a);//41
+        console.log(b);//41
+
+        var f = 50;
+        var g = f++;
+        g--;
+        console.log(g);//49
+        console.log(f);//50
+
+        var val = 10;
+        val++;//here value is 11
+        var h = --val;//val is there 10
+        h++;//here 11
+        console.log(h);//11
+        console.log(val);//10
+
+        var num = 20;
+        num++;//here value is 21
+        var t = ++num;//22
+        num++;//23
+        --num//22
+        console.log(num, t);//(22,22)
+
+
+        var num = 10;
+        --num;//9
+        var y = ++num + 10;//20
+        --y;//19
+        console.log(y);//19
+        console.log(num);//10
+
+
+        var num = 30;
+        ++num;//31
+        (num++)-10;
+        console.log(num);//32
+
+
+
+    </script>
+</body>
+
+</html>
